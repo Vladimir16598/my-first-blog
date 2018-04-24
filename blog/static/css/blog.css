@@ -43,10 +43,11 @@ h1, h2, h3, h4 {
 }
 
 .top-menu, .top-menu:hover, .top-menu:visited {
-    color: White;
+    color: Black;
     float: right;
     font-size: 26pt;
-    margin-right: 20px;
+    margin-right: 10px;
+    margin-top: 20px;
 }
 
 .post {
@@ -58,9 +59,8 @@ h1, h2, h3, h4 {
 }
 .glyphicon {
     color: black;
-    position: static;
-    padding-bottom: 50%;
-    padding-top: 50%;
+    position: inherit;
+
     display: inline-block;
     font-family: 'Glyphicons Halflings';
     font-style: normal;
@@ -83,8 +83,37 @@ strong {
   color: Black;
   font-style: italic;
 }
+#MsgText {
+  color:White;
+  font-size:20px;
+}
 p {
   padding-left: 7px;
   color: Black;
+
+
+}
+.glyphicon-pencil {
+  color: LightCyan;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+
+}
+.glyphicon-upload {
+  color: LightCyan;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+
+}
+.glyphicon-remove {
+  color: LightCyan;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
 
 }
