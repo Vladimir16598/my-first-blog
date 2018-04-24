@@ -52,6 +52,7 @@ h1, h2, h3, h4 {
 
 .post {
     margin-bottom: 40px;
+    border: 2px sold Blue;
 }
 
 .post h1 a, .post h1 a:visited {
@@ -113,6 +114,14 @@ p {
 
 }
 .glyphicon-remove {
+  color: LightCyan;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+
+}
+.glyphicon-ok {
   color: LightCyan;
   font-family: 'Glyphicons Halflings';
   font-style: normal;
