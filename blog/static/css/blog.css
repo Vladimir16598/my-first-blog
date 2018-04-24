@@ -58,7 +58,6 @@ h1, h2, h3, h4 {
 .glyphicon {
     color: black;
     position: static;
-    /* top: 50%; */
     padding-bottom: 50%;
     padding-top: 50%;
     display: inline-block;
