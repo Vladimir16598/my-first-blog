@@ -1,0 +1,23 @@
+
+$height-footer: 60px;
+
+
+
+
+  body {
+    margin-bottom: $height-footer;
+  }
+#footer {
+  text-align: center;
+      font-family: 'Lobster', cursive;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    height: $height-footer;
+    position: relative;
+    background-color: DarkOrange;
+    .footer-block {
+      margin: 20px 0;
+
+    }
+  }
